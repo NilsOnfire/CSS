@@ -1,0 +1,37 @@
+.contenedor{
+display: grid;
+grid-gap: 10px;
+background: black;
+border-radius: 10px;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(3, 1fr);
+
+/*Alineacion horizontal de todos los items al tiempo*/
+
+justify-items:center ;
+
+/*Alineacion vertical de todos los items al tiempo*/
+align-items: center;
+
+}
+
+
+.contenedor .item1{
+	background: #495324;
+	justify-self: stretch;
+align-self: center;
+}
+
+.contenedor .item2{
+	background: #AF5733;
+	justify-self: stretch;
+	align-self: center;
+}
+
+.contenedor .item3{
+	background: #E4D3b7;
+	color: black;
+/*Alinecion individual de cada item(self)	*/
+	justify-self: stretch;
+	align-self: stretch;
+}
